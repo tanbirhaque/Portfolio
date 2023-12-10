@@ -6,7 +6,7 @@ import { MdContactMail } from "react-icons/md";
 const Navbar = () => {
     return (
         <div>
-            <div className="navContainer mt-[20px]">
+            <div className="navContainer mt-[20px] mr-[10px]">
                 <ul className="bg-[#31313a] inline-block">
                     <li className="flex flex-col items-center p-4 border-b-[1px]">
                         <FaRegUser />
