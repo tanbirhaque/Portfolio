@@ -12,6 +12,8 @@ import Layout from './Layout/Layout.jsx';
 import Home from './Layout/Home/Home.jsx';
 import About from './Layout/Home/Pages/About/About.jsx';
 import Contact from './Layout/Home/Pages/Contact/Contact.jsx';
+import Projects from './Layout/Home/Pages/Projects/Projects.jsx';
+import Konika from './Layout/Home/Shared/Banner/Konika.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
             element: <About></About>
           },
           {
+            path: "/projects",
+            element: <Projects></Projects>
+          },
+          {
             path: "/contact",
             element: <Contact></Contact>
           }
@@ -34,6 +40,10 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: '/konika',
+    element: <Konika></Konika>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

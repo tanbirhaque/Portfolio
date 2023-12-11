@@ -37,11 +37,11 @@ const Banner = () => {
                             className='text-16px text-[#78cc6d]'
                         />
                         <ul className='flex justify-center gap-2 mt-[20px] text-white'>
-                            <li><FaGithub /></li>
-                            <li><FaLinkedin /></li>
-                            <li><FaTwitter /></li>
-                            <li><FaFacebook /></li>
-                            <li><FaInstagram /></li>
+                            <li className='hover:text-[#61ce70] transition ease-linear'><FaGithub /></li>
+                            <li className='hover:text-[#61ce70] transition ease-linear'><FaLinkedin /></li>
+                            <li className='hover:text-[#61ce70] transition ease-linear'><FaTwitter /></li>
+                            <li className='hover:text-[#61ce70] transition ease-linear'><FaFacebook /></li>
+                            <li className='hover:text-[#61ce70] transition ease-linear'><FaInstagram /></li>
                         </ul>
                     </div>
                     <div className='rightdiv h-[200px] w-full absolute bg-[#31313a] top-[-29px] left-[-60px] rotate-[10deg] z-0]'></div>
