@@ -8,12 +8,15 @@ import mongoDB from "../../../../assets/Images/mongoDB.png"
 import tailwindPNG from "../../../../assets/Images/Tailwind-CSS1-900x0.png"
 import bootstrapPNG from "../../../../assets/Images/bootstrap.png"
 import SkillsComponent from "../../Components/SkillsComponent/SkillsComponent";
+import { IoIosSchool } from "react-icons/io";
+import { GiBiceps } from "react-icons/gi";
+import { HiMiniLanguage } from "react-icons/hi2";
 
 const About = () => {
     return (
         <div>
             <div className="h-[673px] py-[10px]">
-                <div className="bg-[#31313a] w-[685px] h-full pt-6 overflow-hidden overflow-y-scroll">
+                <div className="bg-[#31313a] w-[685px] h-full pt-6 overflow-hidden overflow-y-scroll pb-[40px]">
                     {/* About me section starts */}
                     <div className="about_section">
                         <div className="mx-[30px] mb-5">
@@ -45,13 +48,70 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="divider m-0 h-0"></div>
                     </div>
                     {/* About me section ends */}
 
-                    {/* Services section starts */}
-                    <div className="services_section mt-[30px]">
-                        <div className="mx-[30px] mb-5">
+                    {/* Education and language section starts */}
+                    <div className="edu_lang-section pb-[25px]">
+                        <div className="mx-[30px] grid grid-cols-2">
+                            <div className="education border-[#3d3d47] border-r-[1px] pr-5 pt-5">
+                                <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 mb-3">
+                                    <IoIosSchool className="text-[35px] text-[#78cc6d]" />
+                                    Education
+                                </h3>
+                                <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
+                                    <div className="border border-[#78cc6d] inline-block px-[10px]">
+                                        <h3 className="text-[13px] text-[#78cc6d]">2023 - Present</h3>
+                                    </div>
+                                    <p className="text-white font-semibold mt-[10px]">HSC</p>
+                                    <p className="text-[12px]">Science</p>
+                                    <p>Dania University College</p>
+                                    <p>Location: Dhaka, Bangladesh</p>
+                                </div>
+                                <div className="border-y-[1px] border-[#3d3d47] py-[20px]">
+                                    <div className="border border-[#78cc6d] inline-block px-[10px]">
+                                        <h3 className="text-[13px] text-[#78cc6d]">2021 - 2022</h3>
+                                    </div>
+                                    <p className="text-white font-semibold mt-[10px]">SSC</p>
+                                    <p className="text-[12px]">Science</p>
+                                    <p>Monipur High School and College</p>
+                                    <p>Location: Dhaka, Bangladesh</p>
+                                </div>
+                            </div>
+                            <div className="language pt-5">
+                                <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 ml-[20px]  mb-3">
+                                    <HiMiniLanguage className="text-[35px] text-[#78cc6d]"/>
+                                    Language
+                                </h3>
+                                <div className="border-y-[1px] border-[#3d3d47]  ml-[20px] grid gap-6 pt-5 pb-[45px]">
+                                    <div>
+                                        <p className="font-medium text-white">English - <span className="text-gray-400 text-[12px]">Intermediate</span></p>
+                                        <progress className="progress progress-success w-56" value="2" max="4"></progress>
+                                    </div>
+                                    <div>
+                                        <p className="font-medium text-white">Bangla - <span className="text-gray-400 text-[12px]">Native</span></p>
+                                        <progress className="progress progress-success w-56" value="4" max="4"></progress>
+                                    </div>
+                                    <div>
+                                        <p className="font-medium text-white">Hindi - <span className="text-gray-400 text-[12px]">Advance</span></p>
+                                        <progress className="progress progress-success w-56" value="3" max="4"></progress>
+                                    </div>
+                                    <div>
+                                        <p className="font-medium text-white">Urdu - <span className="text-gray-400 text-[12px]">Intermediate</span></p>
+                                        <progress className="progress progress-success w-56" value="2" max="4"></progress>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Education and language section ends */}
+
+                    {/* Skills section starts */}
+                    <div className="skill_section mt-[30px]">
+                        <div className="mx-[30px] mb-5 flex items-center gap-2">
                             <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">S</span>kills</h3>
+                            <GiBiceps className="text-[20px] text-[#61ce70]"/>
                         </div>
                         <div className="divider m-0 h-0"></div>
                         <div className="grid grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">
@@ -119,7 +179,7 @@ const About = () => {
                             ></SkillsComponent>
                         </div>
                     </div>
-                    {/* Services section ends */}
+                    {/* Skills section ends */}
                 </div>
             </div>
         </div>

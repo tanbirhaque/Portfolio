@@ -4,7 +4,7 @@ import About from "./About/About";
 const PageContainer = () => {
     return (
         <>
-            <About></About>
+            {/* <About></About> */}
         </>
     );
 };

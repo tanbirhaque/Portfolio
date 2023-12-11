@@ -1,0 +1,23 @@
+.active {
+    color: #78cc6d;
+}
+
+.navlink li::after {
+    content: '';
+    position: relative;
+    right: 0;
+    bottom: -15px;
+    width: 100%;
+    height: 1px;
+    /* background: #78cc6d; */
+    background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+}
+/* ul li{
+    color: rgba(255, 255, 255, 0.9);
+}] */
+
+/* .header .top-menu ul li a:before {
+
+} */

@@ -3,31 +3,39 @@ import { RiProfileLine } from "react-icons/ri";
 import { GrWorkshop } from "react-icons/gr";
 import { TfiWrite } from "react-icons/tfi";
 import { MdContactMail } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import './Navbar.css'
+import { IoMdMail } from "react-icons/io";
+
 const Navbar = () => {
     return (
         <div>
             <div className="navContainer mt-[20px] mr-[10px]">
-                <ul className="bg-[#31313a] inline-block">
-                    <li className="flex flex-col items-center p-4 border-b-[1px]">
-                        <FaRegUser />
-                        About
-                    </li>
-                    <li className="flex flex-col items-center p-4 border-b-[1px]">
-                        <RiProfileLine />
+                <ul className="bg-[#31313a] inline-block navlink">
+                    <NavLink to={'/'}>
+                        <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">
+                            <FaRegUser className="text-[22px]  mb-[5px]"/>
+                            About
+                        </li>
+                    </NavLink>
+                    {/* <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">
+                        <RiProfileLine className="text-[22px]  mb-[5px]"/>
                         Resume
-                    </li>
-                    <li className="flex flex-col items-center p-4 border-b-[1px]">
-                        <GrWorkshop />
+                    </li> */}
+                    <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">
+                        <GrWorkshop className="text-[22px]  mb-[5px]"/>
                         Projects
                     </li>
-                    <li className="flex flex-col items-center p-4 border-b-[1px]">
-                        <TfiWrite />
+                    {/* <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">
+                        <TfiWrite className="text-[22px] mb-[5px]"/>
                         Blogs
-                    </li>
-                    <li className="flex flex-col items-center p-4 border-b-[1px]">
-                        <MdContactMail />
-                        Contact
-                    </li>
+                    </li> */}
+                    <NavLink to="contact">
+                        <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">
+                            <IoMdMail  className="text-[22px]  mb-[5px]"/>
+                            Contact
+                        </li>
+                    </NavLink>
                 </ul>
             </div>
         </div>

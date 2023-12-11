@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 
 // import react router
@@ -9,11 +8,31 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from './Layout/Layout.jsx';
+// import PageContainer from './Layout/Home/Pages/PageContainer.jsx';
+import Home from './Layout/Home/Home.jsx';
+import About from './Layout/Home/Pages/About/About.jsx';
+import Contact from './Layout/Home/Pages/Contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+        children: [
+          {
+            path: "/",
+            element: <About></About>
+          },
+          {
+            path: "/contact",
+            element: <Contact></Contact>
+          }
+        ]
+      }
+    ]
   },
 ]);
 
