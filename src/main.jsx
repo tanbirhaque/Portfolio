@@ -13,7 +13,6 @@ import Home from './Layout/Home/Home.jsx';
 import About from './Layout/Home/Pages/About/About.jsx';
 import Contact from './Layout/Home/Pages/Contact/Contact.jsx';
 import Projects from './Layout/Home/Pages/Projects/Projects.jsx';
-import Konika from './Layout/Home/Shared/Banner/Konika.jsx';
 
 const router = createBrowserRouter([
   {
