@@ -10,8 +10,8 @@ import { IoMdMail } from "react-icons/io";
 const Navbar = () => {
     return (
         <div>
-            <div className="navContainer mt-[20px] mr-[10px]">
-                <ul className="bg-[#31313a] inline-block navlink">
+            <div className="navContainer md:mt-[20px] md:mr-[10px]">
+                <ul className="bg-[#31313a] navlink flex justify-center lg:inline-block w-full">
                     <NavLink to={'/'} className="hover:text-[#61ce70]">
                         <li className="flex flex-col items-center px-4 py-[15px] text-[14px]">
                             <FaRegUser className="text-[22px]  mb-[5px]" />

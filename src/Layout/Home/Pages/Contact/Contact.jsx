@@ -23,8 +23,6 @@ const Contact = () => {
                 console.log(error.text);
             });
     };
-
-
     return (
         <div>
             <div className="h-[673px] py-[10px]">

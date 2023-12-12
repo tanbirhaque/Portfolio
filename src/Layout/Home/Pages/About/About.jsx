@@ -15,21 +15,21 @@ import { HiMiniLanguage } from "react-icons/hi2";
 const About = () => {
     return (
         <div>
-            <div className="h-[673px] py-[10px]">
-                <div className="bg-[#31313a] w-[685px] h-full pt-6 overflow-hidden overflow-y-scroll pb-[40px]">
+            <div className="md:h-[673px] py-[10px]">
+                <div className="bg-[#31313a] w-full mx-auto md:w-[685px] h-full pt-6 md:overflow-hidden md:overflow-y-scroll pb-[40px]">
                     {/* About me section starts */}
                     <div className="about_section">
                         <div className="mx-[30px] mb-5">
                             <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">A</span>bout Me</h3>
                         </div>
                         <div className="divider m-0 h-0"></div>
-                        <div className="grid grid-cols-2">
+                        <div className="grid md:grid-cols-2">
                             <div className="p-[30px] border-[#3d3d47] border-r-[1px]">
                                 <p>
-                                    <span className="font-bold">Hello! I’m Ryan Adlard.</span>
+                                    <span className="font-bold">Hello! I’m Tanbir Haque Anil.</span>
                                     <br />
                                     <span className="font-medium">
-                                        Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+                                        Web developer from Dhaka, Bangladesh. I have rich experience in react web development, also I am good at . I love to talk with you about our unique.
                                     </span>
                                 </p>
                             </div>
@@ -54,8 +54,8 @@ const About = () => {
 
                     {/* Education and language section starts */}
                     <div className="edu_lang-section pb-[25px]">
-                        <div className="mx-[30px] grid grid-cols-2">
-                            <div className="education border-[#3d3d47] border-r-[1px] pr-5 pt-5">
+                        <div className="mx-[30px] grid md:grid-cols-2">
+                            <div className="education border-[#3d3d47] md:border-r-[1px] pr-5 pt-5">
                                 <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 mb-3">
                                     <IoIosSchool className="text-[35px] text-[#78cc6d]" />
                                     Education
@@ -114,7 +114,7 @@ const About = () => {
                             <GiBiceps className="text-[20px] text-[#61ce70]"/>
                         </div>
                         <div className="divider m-0 h-0"></div>
-                        <div className="grid grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">
+                        <div className="grid md:grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">
                             {/* html */}
                             <SkillsComponent
                                 skillPNG={htmlPNG}

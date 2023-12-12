@@ -40,10 +40,6 @@ const router = createBrowserRouter([
       }
     ]
   },
-  {
-    path: '/konika',
-    element: <Konika></Konika>
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

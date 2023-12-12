@@ -1,4 +1,5 @@
-import bannerIMG from '../../../../assets/Images/man5_big.jpeg'
+// import bannerIMG from '../../../../assets/Images/man5_big.jpeg'
+import bannerIMG from '../../../../assets/Images/myPhoto.jpg'
 import { MdDownload } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -10,7 +11,7 @@ const Banner = () => {
     return (
         <div>
             <div
-                className="bannerContainer bg-[#31313a] max-w-[480px] overflow-hidden rounded-md relative"
+                className="bannerContainer bg-[#31313a] max-w-[480px] mx-auto md:mx-0 overflow-hidden rounded-md relative"
                 style={{ boxShadow: "3px 0 8px rgba(0, 0, 0, 0.5)" }}
             >
                 <div className="pictureDiv min-h-[384px]">
@@ -60,7 +61,7 @@ const Banner = () => {
                 <div className="btnDiv uppercase font-bold text-white text-[14px] grid grid-cols-2 justify-center border-[#54545d] border-t-[1px] relative">
                     <div className='border-[#54545d] border-r-[1px] py-5'>
                         <h3 className='flex gap-3 items-center justify-center hover:text-[#78cc6d]'>
-                            <a href="../../../../assets/TanbirHaqueAnilResume (6).pdf" download>
+                            <a href="/public/TanbirHaqueAnilResume (6).pdf" download>
                                 download CV
                             </a>
                             <MdDownload />

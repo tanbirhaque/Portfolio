@@ -23,8 +23,8 @@ const Layout = () => {
                 }}
             />
             {/* <h1>this is home layout</h1> */}
-            <div className="flex items-center" style={{ height: '100vh' }}>
-                <div className="w-[1260px] mx-auto flex">
+            <div className="lg:flex items-center" style={{ height: '100vh' }}>
+                <div className="md:w-[1260px] mx-auto lg:flex">
                     <Navbar></Navbar>
                     <Banner></Banner>
                     <Home></Home>

@@ -64,18 +64,18 @@ const Projects = () => {
                                     <p>Bery is a real-state website with 3 different dashboards, for admin, users and agents.</p>
                                     <div className="grid grid-cols-2 mt-[8px]">
                                         <div className="grid border-gray-600 border-r-[1px]">
-                                            <a href="#" className="text-[#61ce70]">
+                                            <p className="text-[#61ce70]">
                                                 Links
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </p>
+                                            <Link to={'https://assignment-12-bery.web.app/'} target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Live Preview
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </Link>
+                                            <Link to="https://github.com/Anirat04/Bery-Client" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Frontend Code
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </Link>
+                                            <Link to="https://github.com/Anirat04/Bery-server" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Backend Code
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="text-right">
                                             <p className="text-[#61ce70]">Technologies</p>
@@ -144,18 +144,18 @@ const Projects = () => {
                                     <p>Share Food is a food sharing website where people can donate their wastage foods for the people who need this</p>
                                     <div className="grid grid-cols-2 mt-[8px]">
                                         <div className="grid border-gray-600 border-r-[1px]">
-                                            <a href="#" className="text-[#61ce70]">
+                                            <p className="text-[#61ce70]">
                                                 Links
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </p>
+                                            <Link to="https://assignment-11-share-food.web.app/" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Live Preview
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </Link>
+                                            <Link to="https://github.com/Anirat04/Share-Food_Client" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Frontend Code
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </Link>
+                                            <Link to="https://github.com/Anirat04/Share-Food_Server" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Backend Code
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="text-right">
                                             <p className="text-[#61ce70]">Technologies</p>
@@ -224,18 +224,18 @@ const Projects = () => {
                                     <p>eTrade is a platform where you can by different brand's products.</p>
                                     <div className="grid grid-cols-2 mt-[8px]">
                                         <div className="grid border-gray-600 border-r-[1px]">
-                                            <a href="#" className="text-[#61ce70]">
+                                            <p className="text-[#61ce70]">
                                                 Links
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </p>
+                                            <Link to="https://assignment-10-sell-shop.web.app/" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Live Preview
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </Link>
+                                            <Link to="https://github.com/Anirat04/eTrade" target="_blank" className="hover:underline hover:text-[#61ce70]">
                                                 Frontend Code
-                                            </a>
-                                            <a href="#" className="hover:underline hover:text-[#61ce70]">
+                                            </Link>
+                                            <Link to="https://github.com/Anirat04/eTrade_Server" className="hover:underline hover:text-[#61ce70]">
                                                 Backend Code
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="text-right">
                                             <p className="text-[#61ce70]">Technologies</p>
