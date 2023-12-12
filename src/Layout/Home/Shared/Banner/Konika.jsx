@@ -2,7 +2,7 @@
 
 const Konika = () => {
     return (
-        <div className="mt-[150px] h-[750px]">
+        <div className="mt-[150px] overflow-x-clip">
             <section id="about" className="bg-[#00acc1] relative">
                 <div className="bg-[#00acc1] min-h-full w-[2000px] py-16 absolute -top-16 left-[-25px] z-0 rotate-[-3deg]"></div>
                 <div className="relative z-10 py-16">
