@@ -15,8 +15,8 @@ import './Project.css'
 const Projects = () => {
     return (
         <div>
-            <div className="h-[673px] py-[10px]">
-                <div className="bg-[#31313a] w-[685px] h-full pt-6 overflow-hidden overflow-y-scroll pb-[40px]">
+            <div className="md:h-[673px] py-[10px]">
+                <div className="bg-[#31313a] md:w-[685px] h-full pt-6 md:overflow-hidden md:overflow-y-scroll pb-[40px]">
                     <div className="contact_section">
                         <div className="mx-[30px] mb-5">
                             <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">M</span>y Projects</h3>
@@ -64,7 +64,7 @@ const Projects = () => {
                                         </h3>
                                     </a>
                                     <p>Bery is a real-state website with 3 different dashboards, for admin, users and agents.</p>
-                                    <div className="grid grid-cols-2 mt-[8px]">
+                                    <div className="grid md:grid-cols-2 mt-[8px]">
                                         <div className="grid border-gray-600 border-r-[1px]">
                                             <p className="text-[#61ce70]">
                                                 Links
@@ -79,9 +79,9 @@ const Projects = () => {
                                                 Backend Code
                                             </Link>
                                         </div>
-                                        <div className="text-right">
+                                        <div className="md:text-right mt-[15px] md:mt-0">
                                             <p className="text-[#61ce70]">Technologies</p>
-                                            <div className="grid grid-cols-3 justify-items-end gap-2 mt-[5px] text-[20px]">
+                                            <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
                                                 <FaReact />
                                                 <SiMongodb />
                                                 <TbBrandNodejs />
@@ -146,7 +146,7 @@ const Projects = () => {
                                         </h3>
                                     </a>
                                     <p>Share Food is a food sharing website where people can donate their wastage foods for the people who need this</p>
-                                    <div className="grid grid-cols-2 mt-[8px]">
+                                    <div className="grid md:grid-cols-2 mt-[8px]">
                                         <div className="grid border-gray-600 border-r-[1px]">
                                             <p className="text-[#61ce70]">
                                                 Links
@@ -161,9 +161,9 @@ const Projects = () => {
                                                 Backend Code
                                             </Link>
                                         </div>
-                                        <div className="text-right">
+                                        <div className="md:text-right mt-[15px] md:mt-0">
                                             <p className="text-[#61ce70]">Technologies</p>
-                                            <div className="grid grid-cols-3 justify-items-end gap-2 mt-[5px] text-[20px]">
+                                            <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
                                                 <FaReact />
                                                 <SiMongodb />
                                                 <TbBrandNodejs />
@@ -228,7 +228,7 @@ const Projects = () => {
                                         </h3>
                                     </a>
                                     <p>eTrade is a platform where you can by different brand's products.</p>
-                                    <div className="grid grid-cols-2 mt-[8px]">
+                                    <div className="grid md:grid-cols-2 mt-[8px]">
                                         <div className="grid border-gray-600 border-r-[1px]">
                                             <p className="text-[#61ce70]">
                                                 Links
@@ -243,9 +243,9 @@ const Projects = () => {
                                                 Backend Code
                                             </Link>
                                         </div>
-                                        <div className="text-right">
+                                        <div className="md:text-right mt-[15px] md:mt-0">
                                             <p className="text-[#61ce70]">Technologies</p>
-                                            <div className="grid grid-cols-3 justify-items-end gap-2 mt-[5px] text-[20px]">
+                                            <div className="grid grid-cols-3 md:justify-items-end gap-2 mt-[5px] text-[20px]">
                                                 <FaReact />
                                                 <SiMongodb />
                                                 <TbBrandNodejs />
