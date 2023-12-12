@@ -19,7 +19,7 @@ const Layout = () => {
                     backgroundColor: '#61ce70'
                 }}
                 outerStyle={{
-                    border: '3px solid #61ce70'
+                    border: '1px solid #61ce70'
                 }}
             />
             {/* <h1>this is home layout</h1> */}

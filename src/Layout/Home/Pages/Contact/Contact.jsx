@@ -1,6 +1,30 @@
 import { MdArrowRightAlt } from "react-icons/md";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+
+// service id: service_bpdhafi
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                'service_bpdhafi',
+                'template_jwgxf0e',
+                form.current,
+                'K1rFoWYEbyNtPk9iG'
+            )
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
     return (
         <div>
             <div className="h-[673px] py-[10px]">
@@ -40,15 +64,17 @@ const Contact = () => {
                         </div>
                         <div className="divider m-0 h-0"></div>
                         <div className="px-[30px] pt-[30px]">
-                            <form>
+                            <form ref={form} onSubmit={sendEmail}>
                                 <div className="grid grid-cols-2 gap-7">
                                     <input
                                         type="text"
+                                        name="user_name"
                                         placeholder="Full Name"
                                         className="py-[10px] pl-[15px] bg-transparent border-[2px] border-[#666] text-[#61ce70] focus:outline-none focus:ring-2 focus:ring-[#61ce70] focus:border-none"
                                     />
                                     <input
                                         type="text"
+                                        name="user_email"
                                         placeholder="Email Address"
                                         className="py-[10px] pl-[15px] bg-transparent border-[2px] border-[#666] text-[#61ce70] focus:outline-none focus:ring-2 focus:ring-[#61ce70] focus:border-none"
                                     />
@@ -56,14 +82,20 @@ const Contact = () => {
                                 <div>
                                     <textarea
                                         type="text"
+                                        name="message"
                                         placeholder="Your Message"
                                         className="w-full h-[100px] p-[15px] bg-transparent border-[2px] border-[#666] text-[#61ce70] focus:outline-none focus:ring-2 focus:ring-[#61ce70] focus:border-none"
                                     />
                                 </div>
-                                <div className="flex items-center mt-6">
-                                    <p className="text-white uppercase font-semibold text-[14px]">Send Message</p>
-                                    <MdArrowRightAlt className="text-[26px] text-white"/>
-                                </div>
+                                <button
+                                    type="submit"
+                                    value="Send"
+                                >
+                                    <div className="flex items-center mt-6">
+                                        <p className="text-white uppercase font-semibold text-[14px]">Send Message</p>
+                                        <MdArrowRightAlt className="text-[26px] text-white" />
+                                    </div>
+                                </button>
                             </form>
                         </div>
                     </div>
