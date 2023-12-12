@@ -1,5 +1,6 @@
 // import bannerIMG from '../../../../assets/Images/man5_big.jpeg'
 import bannerIMG from '../../../../assets/Images/myPhoto.jpg'
+import resumePDF from '../../../../../public/TanbirHaqueAnilResume (6).pdf'
 import { MdDownload } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -61,17 +62,17 @@ const Banner = () => {
                 <div className="btnDiv uppercase font-bold text-white text-[14px] grid grid-cols-2 justify-center border-[#54545d] border-t-[1px] relative">
                     <div className='border-[#54545d] border-r-[1px] py-5'>
                         <h3 className='flex gap-3 items-center justify-center hover:text-[#78cc6d]'>
-                            <a href="/public/TanbirHaqueAnilResume (6).pdf" download>
+                            <a className='flex items-center gap-1' href={resumePDF} download>
                                 download CV
+                                <MdDownload className='text-[20px]'/>
                             </a>
-                            <MdDownload />
                         </h3>
                     </div>
                     <div className='py-5'>
                         <Link to='/contact'>
-                            <h3 className='flex gap-3 items-center justify-center hover:text-[#78cc6d]'>
+                            <h3 className='flex gap-2 items-center justify-center hover:text-[#78cc6d]'>
                                 Contact me
-                                <IoMdMail />
+                                <IoMdMail className='text-[20px]'/>
                             </h3>
                         </Link>
                     </div>

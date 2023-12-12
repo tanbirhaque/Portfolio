@@ -29,7 +29,7 @@ const About = () => {
                                     <span className="font-bold">Hello! I’m Tanbir Haque Anil.</span>
                                     <br />
                                     <span className="font-medium">
-                                        Web developer from Dhaka, Bangladesh. I have rich experience in react web development, also I am good at . I love to talk with you about our unique.
+                                        Skilled web developer from Dhaka, Bangladesh, proficient in HTML, CSS, JavaScript, Tailwind CSS, and React JS. Completed 12 practical personal projects and proficient in tools like DaisyUI, MambaUI, Material UI, and Flowbite.
                                     </span>
                                 </p>
                             </div>
@@ -81,7 +81,7 @@ const About = () => {
                             </div>
                             <div className="language pt-5">
                                 <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 ml-[20px]  mb-3">
-                                    <HiMiniLanguage className="text-[35px] text-[#78cc6d]"/>
+                                    <HiMiniLanguage className="text-[35px] text-[#78cc6d]" />
                                     Language
                                 </h3>
                                 <div className="border-y-[1px] border-[#3d3d47]  ml-[20px] grid gap-6 pt-5 pb-[45px]">
@@ -111,7 +111,7 @@ const About = () => {
                     <div className="skill_section mt-[30px]">
                         <div className="mx-[30px] mb-5 flex items-center gap-2">
                             <h3 className="font-bold text-[20px] text-white popFont"><span className="text-[#61ce70]">S</span>kills</h3>
-                            <GiBiceps className="text-[20px] text-[#61ce70]"/>
+                            <GiBiceps className="text-[20px] text-[#61ce70]" />
                         </div>
                         <div className="divider m-0 h-0"></div>
                         <div className="grid md:grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">

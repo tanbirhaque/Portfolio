@@ -48,9 +48,11 @@ const Projects = () => {
                                     className="aspect-square h-full w-full object-cover"
                                 />
                                 <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
-                                    <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                                        <FaLink className="shadow-lg"></FaLink>
-                                    </div>
+                                    <Link to={'https://assignment-12-bery.web.app/'} target="_blank" >
+                                        <div className=" text-[36px] text-white flex justify-center items-center h-full">
+                                            <FaLink className="shadow-lg"></FaLink>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -128,9 +130,11 @@ const Projects = () => {
                                     className="aspect-square h-full w-full object-cover"
                                 />
                                 <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
-                                    <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                                        <FaLink className="shadow-lg"></FaLink>
-                                    </div>
+                                    <Link to="https://assignment-11-share-food.web.app/" target="_blank" >
+                                        <div className=" text-[36px] text-white flex justify-center items-center h-full">
+                                            <FaLink className="shadow-lg"></FaLink>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
@@ -208,9 +212,11 @@ const Projects = () => {
                                     className="aspect-square h-full w-full object-cover"
                                 />
                                 <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
-                                    <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                                        <FaLink className="shadow-lg"></FaLink>
-                                    </div>
+                                    <Link to={'https://assignment-10-sell-shop.web.app/'} target="_blank">
+                                        <div className=" text-[36px] text-white flex justify-center items-center h-full">
+                                            <FaLink className="shadow-lg"></FaLink>
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
 
