@@ -3,8 +3,8 @@ import './skills.css'
 
 const SkillsComponent = ({skillPNG, skill, percents}) => {
     return (
-        <div className="skill_div pb-[10px]">
-            <div className="skill_border border-[1px] border-[#3d3d47] inline-block bg-[#1f1f1f] p-3 rounded-2xl">
+        <div className="skill_div pb-[10px] w-full md:w-fit">
+            <div className="skill_border border-[1px] w-full sm:w-fit border-[#3d3d47] inline-block bg-[#1f1f1f] p-3 rounded-2xl">
                 <div className="flex flex-col items-center">
                     <div className="w-[55px] h-[55px] mt-[10px] grid items-center">
                         <img src={skillPNG} alt="" />
