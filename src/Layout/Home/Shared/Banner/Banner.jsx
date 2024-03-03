@@ -1,6 +1,7 @@
 // import bannerIMG from '../../../../assets/Images/man5_big.jpeg'
-import bannerIMG from '../../../../assets/Images/myPhoto.jpg'
-import resumePDF from '../../../../../public/TanbirHaqueAnilResume (6).pdf'
+import bannerIMG from '../../../../assets/Images/solid_bg.jpg'
+import bannerPIC from '../../../../assets/Images/Final_pic(1).png'
+import resumePDF from '../../../../../public/TanbirHaqueAnil_Final-Resume.pdf'
 import { MdDownload } from "react-icons/md";
 import { IoMdMail } from "react-icons/io";
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
@@ -16,7 +17,10 @@ const Banner = () => {
                 style={{ boxShadow: "3px 0 8px rgba(0, 0, 0, 0.5)" }}
             >
                 <div className="pictureDiv min-h-[384px]">
-                    <img src={bannerIMG} className="min-h-[384px]" alt="" />
+                    <img src={bannerIMG} className="min-h-[384px] relative" alt="" />
+                    <div className='absolute top-5 left-1/2 -translate-x-1/2'>
+                        <img src={bannerPIC} className='min-w-[300px]' alt="" />
+                    </div>
                 </div>
                 <div className="text-div text-center mb-[100px] mt-[20px] relative">
                     <div className='z-10 relative'>
@@ -38,20 +42,20 @@ const Banner = () => {
                             repeat={Infinity}
                             className='text-16px text-[#78cc6d]'
                         />
-                        <ul className='flex justify-center gap-2 mt-[20px] text-white'>
-                            <Link>
+                        <ul className='flex justify-center gap-2 mt-[20px] text-white text-[20px]'>
+                            <Link to="https://github.com/Anirat04" target='_blank'>
                                 <li className='hover:text-[#61ce70] transition ease-linear'><FaGithub /></li>
                             </Link>
-                            <Link>
+                            <Link to="https://www.linkedin.com/in/tanbirhaque/" target='_blank'>
                                 <li className='hover:text-[#61ce70] transition ease-linear'><FaLinkedin /></li>
                             </Link>
-                            <Link>
+                            <Link to="https://twitter.com/TanbirHaque04" target='_blank'>
                                 <li className='hover:text-[#61ce70] transition ease-linear'><FaTwitter /></li>
                             </Link>
-                            <Link>
+                            <Link to="https://www.facebook.com/tanbir.haque.31" target='_blank'>
                                 <li className='hover:text-[#61ce70] transition ease-linear'><FaFacebook /></li>
                             </Link>
-                            <Link>
+                            <Link to="https://www.instagram.com/tanbirhaqeanil/" target='_blank'>
                                 <li className='hover:text-[#61ce70] transition ease-linear'><FaInstagram /></li>
                             </Link>
                         </ul>

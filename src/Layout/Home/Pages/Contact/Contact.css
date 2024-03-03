@@ -1,0 +1,11 @@
+.contact-btn:hover .contact-btn-div .contact-btn-send{
+    color: #61ce70;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+.contact-btn:hover .contact-btn-div .contact-btn-send-arrow{
+    color: #61ce70;
+}

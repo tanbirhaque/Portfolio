@@ -28,6 +28,7 @@ const Projects = () => {
                         <h3 className="text-center text-white uppercase font-bold text-[26px] mb-[10px]">Project - 1</h3>
                         {/* Bery */}
                         <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
+                            {/* duration */}
                             <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                                 <time
                                     dateTime="2022-10-10"
@@ -40,22 +41,19 @@ const Projects = () => {
                                     <span>Nov 29</span>
                                 </time>
                             </div>
-
-                            <div className="project_img hidden sm:block sm:basis-56 relative">
-                                <img
-                                    alt="Guitar"
-                                    src="https://i.ibb.co/MsVTjrs/Bery.png"
-                                    className="aspect-square h-full w-full object-cover"
-                                />
-                                <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
+                            {/* image */}
+                            <div className="project_img hidden sm:block sm:basis-56 relative bg-cover bg-top hover:bg-bottom ease-linear duration-[6000ms]"
+                                style={{ backgroundImage: 'url(https://i.ibb.co/MsVTjrs/Bery.png)' }}
+                            >
+                                <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
                                     <Link to={'https://assignment-12-bery.web.app/'} target="_blank" >
-                                        <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                                            <FaLink className="shadow-lg"></FaLink>
+                                        <div className=" text-[36px] text-green-500 flex justify-center items-center h-full">
+                                            <FaLink className=""></FaLink>
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-
+                            {/* info */}
                             <div className="flex flex-1 flex-col justify-between">
                                 <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                     <a href="#">
@@ -110,6 +108,7 @@ const Projects = () => {
                         <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 2</h3>
                         {/* Share Food */}
                         <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
+                            {/* duration */}
                             <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                                 <time
                                     dateTime="2022-10-10"
@@ -122,22 +121,19 @@ const Projects = () => {
                                     <span>Nov 9</span>
                                 </time>
                             </div>
-
-                            <div className="project_img hidden sm:block sm:basis-56 relative">
-                                <img
-                                    alt="Guitar"
-                                    src="https://i.ibb.co/RQZ6XGv/Share-Food.png"
-                                    className="aspect-square h-full w-full object-cover"
-                                />
-                                <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
-                                    <Link to="https://assignment-11-share-food.web.app/" target="_blank" >
-                                        <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                                            <FaLink className="shadow-lg"></FaLink>
+                            {/* image */}
+                            <div className="project_img hidden sm:block sm:basis-56 relative bg-cover bg-top hover:bg-bottom ease-linear duration-[6000ms]"
+                                style={{ backgroundImage: 'url(https://i.ibb.co/qd2rt7C/Share-Food.png)' }}
+                            >
+                                <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
+                                    <Link to={'https://assignment-11-share-food.web.app/'} target="_blank" >
+                                        <div className=" text-[36px] text-green-500 flex justify-center items-center h-full">
+                                            <FaLink className=""></FaLink>
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-
+                            {/* info */}
                             <div className="flex flex-1 flex-col justify-between">
                                 <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                     <a href="#">
@@ -192,6 +188,7 @@ const Projects = () => {
                         <h3 className="text-center text-white uppercase font-bold text-[26px] mt-9 mb-[10px]">Project - 3</h3>
                         {/* eTrade */}
                         <article className="flex bg-[#1f1f1f] transition hover:shadow-xl">
+                            {/* duration */}
                             <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
                                 <time
                                     dateTime="2022-10-10"
@@ -204,22 +201,19 @@ const Projects = () => {
                                     <span>Oct 26</span>
                                 </time>
                             </div>
-
-                            <div className="project_img hidden sm:block sm:basis-56 relative">
-                                <img
-                                    alt="Guitar"
-                                    src="https://i.ibb.co/3p7x59X/eTrade.png"
-                                    className="aspect-square h-full w-full object-cover"
-                                />
-                                <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
-                                    <Link to={'https://assignment-10-sell-shop.web.app/'} target="_blank">
-                                        <div className=" text-[36px] text-white flex justify-center items-center h-full">
-                                            <FaLink className="shadow-lg"></FaLink>
+                            {/* image */}
+                            <div className="project_img hidden sm:block sm:basis-56 relative bg-cover bg-top hover:bg-bottom ease-linear duration-[6000ms]"
+                                style={{ backgroundImage: 'url(https://i.ibb.co/hCFVDMT/eTrade.png)' }}
+                            >
+                                <div className="overlay hidden bg-gradient-to-br  w-full h-full absolute top-0 left-0">
+                                    <Link to={'https://assignment-10-sell-shop.web.app/'} target="_blank" >
+                                        <div className=" text-[36px] text-green-500 flex justify-center items-center h-full">
+                                            <FaLink className=""></FaLink>
                                         </div>
                                     </Link>
                                 </div>
                             </div>
-
+                            {/* info */}
                             <div className="flex flex-1 flex-col justify-between">
                                 <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
                                     <a href="#">
@@ -303,3 +297,20 @@ const Projects = () => {
 };
 
 export default Projects;
+
+
+{/* initial design of the project picture show */ }
+{/* <div className="project_img hidden sm:block sm:basis-56 relative">
+    <img
+        alt="Guitar"
+        src="https://i.ibb.co/RQZ6XGv/Share-Food.png"
+        className="aspect-square h-full w-full object-cover"
+    />
+    <div className="overlay hidden bg-gradient-to-br from-green-500/60 to-green-100/50 w-full h-full absolute top-0 left-0">
+        <Link to="https://assignment-11-share-food.web.app/" target="_blank" >
+            <div className=" text-[36px] text-white flex justify-center items-center h-full">
+                <FaLink className="shadow-lg"></FaLink>
+            </div>
+        </Link>
+    </div>
+</div> */}

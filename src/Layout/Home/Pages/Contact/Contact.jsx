@@ -1,6 +1,7 @@
 import { MdArrowRightAlt } from "react-icons/md";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
+import './Contact.css'
 
 // service id: service_bpdhafi
 
@@ -88,10 +89,11 @@ const Contact = () => {
                                 <button
                                     type="submit"
                                     value="Send"
+                                    className="contact-btn"
                                 >
-                                    <div className="flex items-center mt-6">
-                                        <p className="text-white uppercase font-semibold text-[14px]">Send Message</p>
-                                        <MdArrowRightAlt className="text-[26px] text-white" />
+                                    <div className="contact-btn-div flex items-center mt-6">
+                                        <p className="text-white uppercase font-semibold text-[14px] contact-btn-send">Send Message</p>
+                                        <MdArrowRightAlt className="text-[26px] text-white contact-btn-send-arrow" />
                                     </div>
                                 </button>
                             </form>

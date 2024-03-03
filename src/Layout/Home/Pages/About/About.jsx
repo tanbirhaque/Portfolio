@@ -86,20 +86,20 @@ const About = () => {
                                 </h3>
                                 <div className="border-y-[1px] border-[#3d3d47]  ml-[20px] grid gap-6 pt-5 pb-[45px]">
                                     <div>
-                                        <p className="font-medium text-white">English - <span className="text-gray-400 text-[12px]">Intermediate</span></p>
-                                        <progress className="progress progress-success w-56" value="2" max="4"></progress>
+                                        <p className="font-medium text-white">English - <span className="text-gray-400 text-[12px]">Beginner</span></p>
+                                        <progress className="progress progress-success w-56" value="1" max="4"></progress>
                                     </div>
                                     <div>
                                         <p className="font-medium text-white">Bangla - <span className="text-gray-400 text-[12px]">Native</span></p>
                                         <progress className="progress progress-success w-56" value="4" max="4"></progress>
                                     </div>
                                     <div>
-                                        <p className="font-medium text-white">Hindi - <span className="text-gray-400 text-[12px]">Advance</span></p>
-                                        <progress className="progress progress-success w-56" value="3" max="4"></progress>
+                                        <p className="font-medium text-white">Hindi - <span className="text-gray-400 text-[12px]">Intermediate</span></p>
+                                        <progress className="progress progress-success w-56" value="2" max="4"></progress>
                                     </div>
                                     <div>
-                                        <p className="font-medium text-white">Urdu - <span className="text-gray-400 text-[12px]">Intermediate</span></p>
-                                        <progress className="progress progress-success w-56" value="2" max="4"></progress>
+                                        <p className="font-medium text-white">Urdu - <span className="text-gray-400 text-[12px]">Beginner</span></p>
+                                        <progress className="progress progress-success w-56" value="1" max="4"></progress>
                                     </div>
                                 </div>
                             </div>
