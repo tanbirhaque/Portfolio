@@ -13,10 +13,10 @@ const Banner = () => {
     return (
         <div>
             <div
-                className="bannerContainer bg-[#31313a] max-w-[480px] mx-auto md:mx-0 overflow-hidden rounded-md relative"
+                className="bannerContainer bg-[#31313a] xl:max-w-[480px] mx-auto md:mx-0 overflow-hidden rounded-md relative mt-5 xl:mt-0"
                 style={{ boxShadow: "3px 0 8px rgba(0, 0, 0, 0.5)" }}
             >
-                <div className="pictureDiv min-h-[384px]">
+                <div className="pictureDiv xl:min-h-[384px]">
                     <img src={bannerIMG} className="min-h-[384px] relative" alt="" />
                     <div className='absolute top-5 left-1/2 -translate-x-1/2'>
                         <img src={bannerPIC} className='min-w-[300px]' alt="" />
@@ -34,7 +34,7 @@ const Banner = () => {
                                 'Web Developer',  // Types 'Web Development' again
                                 2000,               // Waits 2s
                                 () => {
-                                    console.log('Sequence completed');
+                                    // console.log('Sequence completed');
                                 },
                             ]}
                             wrapper="span"
@@ -60,8 +60,8 @@ const Banner = () => {
                             </Link>
                         </ul>
                     </div>
-                    <div className='rightdiv h-[200px] w-full absolute bg-[#31313a] top-[-29px] left-[-60px] rotate-[10deg] z-0]'></div>
-                    <div className='leftdiv h-[200px] w-full absolute bg-[#31313a] top-[-29px] right-[-60px] -rotate-[10deg] z-0'></div>
+                    <div className='rightdiv h-[255px] w-full absolute bg-[#31313a] top-[-29px] left-[-60px] rotate-[10deg] z-0]'></div>
+                    <div className='leftdiv h-[255px] w-full absolute bg-[#31313a] top-[-29px] right-[-60px] -rotate-[10deg] z-0'></div>
                 </div>
                 <div className="btnDiv uppercase font-bold text-white text-[14px] grid grid-cols-2 justify-center border-[#54545d] border-t-[1px] relative">
                     <div className='border-[#54545d] border-r-[1px] py-5'>
