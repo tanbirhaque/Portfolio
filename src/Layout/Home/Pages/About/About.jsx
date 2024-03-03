@@ -55,7 +55,7 @@ const About = ({ scrollAbout }) => {
 
                         {/* Education and language section starts */}
                         <div className="edu_lang-section pb-[25px]">
-                            <div className="mx-[30px] grid md:grid-cols-2">
+                            <div className="mx-[30px] grid grid-cols-2">
                                 <div className="education border-[#3d3d47] md:border-r-[1px] pr-5 pt-5">
                                     <h3 className="font-bold text-[20px] text-white popFont flex items-center gap-2 mb-3">
                                         <IoIosSchool className="text-[35px] text-[#78cc6d]" />
@@ -115,7 +115,7 @@ const About = ({ scrollAbout }) => {
                                 <GiBiceps className="text-[20px] text-[#61ce70]" />
                             </div>
                             <div className="divider m-0 h-0"></div>
-                            <div className="grid md:grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">
+                            <div className="grid grid-cols-3 gap-5 px-[30px] justify-items-center mt-5">
                                 {/* html */}
                                 <SkillsComponent
                                     skillPNG={htmlPNG}
